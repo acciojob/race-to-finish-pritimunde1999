@@ -3,31 +3,31 @@ window.promises = [];
 
 let prom1 = new Promise((resolve)=>{
 	setTimeout(()=>{
-		resolve();
+		resolve("resolved in 3s");
 	},3000);
 });
 
 let prom2 = new Promise((resolve)=>{
 	setTimeout(()=>{
-		resolve();
+		resolve("resolved in 5s");
 	},5000);
 });
 
 let prom3 = new Promise((resolve)=>{
 	setTimeout(()=>{
-		resolve();
+		resolve("resolved in 1s");
 	},1000);
 });
 
 let prom4 = new Promise((resolve)=>{
 	setTimeout(()=>{
-		resolve();
+		resolve("resolved in 2s");
 	},2000);
 });
 
 let prom5 = new Promise((resolve)=>{
 	setTimeout(()=>{
-		resolve();
+		resolve("resolved in 4s");
 	},4000);
 });
 
